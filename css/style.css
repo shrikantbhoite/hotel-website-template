@@ -1,0 +1,132 @@
+/*body{
+    margin:0px;
+    padding:0px;
+}*/
+
+/*
+.side-img{
+    padding: px; 
+}
+*/
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0px;
+    margin: 0px;
+}
+
+::placeholder{
+    color:white;
+}
+
+.chef{
+    padding:30px 0;
+}
+
+.fruit{
+    padding:30px 0;
+}
+
+.map{
+    padding:30px 0;
+}
+
+.footer{
+    padding:30px 0;
+}
+.cp{
+    padding:20px 0;
+
+}
+.middle-form{
+    background-color:#252336;
+    padding:20px 20px;
+    color:#fff;
+}
+
+.form-control{
+    padding: 10px 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    background-color: #252336;
+    }
+
+input::placeholder {
+    color:#fff;
+}
+
+.wedding{
+    background-color:#f1f0ed;
+    height:50px;
+    line-height: 50px;
+}
+
+.room-head{
+    background-color: #000;
+    color:#fff;
+    font-size: 15px;
+}
+
+
+.room-head h3{
+    font-size: 15px;
+    padding: 7px 0;
+}
+
+
+.room-head-left{
+    background-color: #000;
+    color:#fff;
+    font-size: 15px;
+}
+
+
+.room-head-left h3{
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.side-img img{
+    max-height: 161px;
+    width: 100%;
+}
+
+.sachin {
+    position: relative;
+}
+
+.price{
+    background-color: antiquewhite;
+    color:#000;
+    width:0 auto;   
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius:4px;
+}
+
+.price h5{
+    font-weight: normal;
+    font-size: 15px;
+    padding:5px 5px;  
+}
+
+.btn-neavy{
+    background-color: navy;
+    border-color: navy;
+    color:#fff;
+}
+
+.btn-neavy:hover{
+    background-color: black;
+    border-color: black;
+    color:#fff;
+    
+}
+
+
+

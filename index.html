@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Restaurent</title>
+    <link rel="shortcut icon" href="images/title-icon.png" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/glyphicon.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            /*font-size: 18px;
+            border: none;
+            outline: none;*/
+            /*background-color: red;*/
+            /*background:url(images/top-arrow.png)*/
+            /* color: white;*/
+            cursor: pointer;
+            /*padding: 15px;
+            border-radius: 4px;*/
+        }
+
+        /*  #myBtn:hover {
+            background-color: none;
+        }*/
+
+    </style>
+</head>
+
+<body>
+    <!--navbar start-->
+
+    <nav class="navbar sticky-top navbar-light navbar-expand-sm bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand "><img src="images/site-logo.png" class="img-fluid mx-auto d-block" /></a>
+            <button data-toggle="collapse" data-target="#menu" class="navbar-toggler">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <span class="mr-auto"></span>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><span class="glyphicon glyphicon-home"></span>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><span class="glyphicon glyphicon-camera"></span>
+                            Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="glyphicon glyphicon-picture"></span> Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><span class="glyphicon glyphicon-earphone"></span>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--slider start here-->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="car" class="carousel img-fluid mx-auto d-block slide" data-ride="carousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                    <li data-target="#car" data-slide-to="0" class="active"></li>
+                    <li data-target="#car" data-slide-to="1"></li>
+                    <li data-target="#car" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slider-1.jpg" class="img-fluid" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-2.jpg" class="img-fluid" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-3.jpg" class="img-fluid" />
+                    </div>
+                </div>
+                <a href="#car" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#car" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--slider end here-->
+
+    <!--kitchen team start here-->
+    <section class="chef container-fluid">
+        <div class="container chef-img">
+            <img src="images/upper.png" height="60px" class="mx-auto d-block" alt="" />
+            <h1 class="text-center">
+                <span class="text-info">K</span>itchen
+                <span class="text-info">T</span>eam
+            </h1>
+            <img src="images/lower.png" height="60px" class="mx-auto d-block" alt="" />
+            <br />
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="images/chef-1.jpg" class="img-fluid mx-auto d-block" alt="" />
+                        <div class="card-body bg-dark text-light">
+                            <p class="h3">Chrish</p>
+                            <p>Manager</p>
+                            <button class="btn  btn-sm btn-outline-light">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="col-md-6">
+                    <div class="card text-center">
+                        <img src="images/chef-2.jpg" class="img-fluid team-1" alt="" />
+                        <div class="card-body bg-dark text-light">
+                            <p class="h3">Our Team</p>
+                            <p>Chefs</p>
+                            <button class="btn  btn-sm btn-outline-light">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <img src="images/chef-3.jpg" class="img-fluid mx-auto d-block" alt="" />
+                        <div class="card-body bg-dark text-light">
+                            <p class="h3">John</p>
+                            <p>Chef</p>
+                            <button class="btn  btn-sm btn-outline-light">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--kitchen team end-->
+
+    <!--fruit start here-->
+    <section class="fruit container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="carousel slide img-fluid mx-auto d-block " data-ride="carousel" data-interval="1000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/fruit-1.jpg" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/fruit-2.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-white">
+                    <h2>
+                        <span class="text-success">S</span>pecial
+                        <span class="text-danger">F</span>ruit
+                    </h2>
+                    <img src="images/fruit-border.png" height="40px" class=" mx-auto d-block" alt="" />
+                    <p class="h4 text-justify text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Consequuntur quia quam praesentium minima, ut
+                        enim fuga expedita facere placeat recusandae
+                        tenetur, voluptate aperiam magnam eos dolorem quae`
+                        odit quod, maxime possimus illum aspernatur, vel
+                        dolore. Rerum tempora odio autem, numquam.
+                    </p>
+                    <br />
+                    <button class="mx-auto d-block btn btn-outline-danger">
+                        Order Now <span class="badge badge-red">$3</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fruit end here-->
+
+
+    <!--our Our packages starts here-->
+    <section class="our-menu container-fluid mt-4 mb-4">
+        <div class="container">
+
+            <h2>Our Packages</h2>
+            <p class="text-justify">Mauna Kea Beach Hotel has long been a favorite destination for a romantic wedding on the Big Island of Hawai’i. Whether you dream of an intimate, barefoot ceremony on the beach or a grand, indoor reception fit for Hawaiian royalty, the resort’s wedding coordinators provide personalized attention to every detail so your special day is perfect.</p>
+
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+                    <img src="images/our-1.jpg" width="100%" class="img-fluid" alt="">
+                    <div class="wedding text-center">
+                        <p>Wedding Package</p>
+                    </div><br>
+
+                </div>
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+                    <img src="images/our-2.jpg" class="img-fluid" alt="">
+                    <div class="wedding text-center">
+                        <p>Wedding Package</p>
+                    </div><br>
+                </div>
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                    <img src="images/our-3.jpg" class="img-fluid " alt="">
+                    <div class="wedding text-center">
+                        <p>Wedding Package</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--our Our packages ends here-->
+
+
+
+    <!--our Our Rooms starts here-->
+    <section class="our-room container-fluid mt-4 mb-4">
+        <div class="container text-center mb-3">
+            <h2>OUR FAVORITE ROOMS</h2>
+            <h5>Check out now our best rooms</h5>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 sachin mb-4">
+                    <div class="price text-center">
+                        <h5>€189 / night</h5>
+                    </div>
+                    <img src="images/room-1.jpg" class="img-fluid" alt="">
+
+                    <div class="room-head-left">
+                        <h3 class="text-center">Family Room</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-sm-6 side-img mb-3">
+                            <div class="price text-center">
+                                <h5>€189 / night</h5>
+                            </div>
+                            <img src="images/room-2.jpg" class="img-fluid" alt="">
+                            <div class="room-head">
+                                <h3 class="text-center">King Room</h3>
+                            </div>
+                        </div><br>
+                        <div class="col-sm-6 side-img mb-3">
+                            <div class="price text-center">
+                                <h5>€189 / night</h5>
+                            </div>
+                            <img src="images/room-3.jpg" class="img-fluid" alt="">
+                            <div class="room-head">
+                                <h3 class="text-center">Honeymoon Room</h3>
+                            </div>
+                        </div> <br>
+                        <div class="col-sm-6 side-img mb-3">
+                            <div class="price text-center">
+                                <h5>€189 / night</h5>
+                            </div>
+                            <img src="images/room-4.jpg" class="img-fluid" alt="">
+                            <div class="room-head">
+                                <h3 class="text-center mb-2">Deluxe Room</h3>
+                            </div>
+                        </div> <br>
+                        <div class="col-sm-6 side-img mb-3">
+                            <div class="price text-center">
+                                <h5>€189 / night</h5>
+                            </div>
+                            <img src="images/room-5.jpg" class="img-fluid" alt="">
+                            <div class="room-head">
+                                <h3 class="text-center">Single Room</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-room text-center">
+                <a class="btn btn-neavy" href="http://www.teetechworld.com">View all rooms</a>
+            </div>
+        </div>
+    </section>
+    <!--our Our Rooms ends here-->
+
+
+    <!--our other services starts here-->
+    <section class=" container-fluid Aw-services">
+        <div class="container text-center mt-4 mb-4">
+            <h2>OUR OTHER SERVICES</h2>
+            <h5>Check out our awesome services</h5>
+        </div>
+        <div class="cotainer">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ser-slide">
+                        <ul>
+                            <li id="sl-01" style="list-style-type: none;"><img src="images/our-ser-1.jpg" class="img-fluid active" alt=""></li>
+                            <li id="sl-02" style="list-style-type: none;"><img src="images/our-ser-2.jpg" class="img-fluid" alt=""></li>
+                            <li id="sl-03" style="list-style-type: none;"><img src="images/our-ser-3.jpg" class="img-fluid" alt=""></li>
+                            <li id="sl-04" style="list-style-type: none;"><img src="images/our-ser-4.jpg" class="img-fluid" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border border-dark mb-4 p-2">
+                        <h3>Restaurant</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    </div>
+                    <div class="border border-dark mb-4 p-2">
+                        <h3>Spa - Beauty &amp; Health</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    </div>
+                    <div class="border border-dark mb-4 p-2">
+                        <h3>Conference Room</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    </div>
+                    <div class="border border-dark mb-4 p-2">
+                        <h3>Swimming Pool</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--our other services ends here-->
+
+
+    <!--map start here-->
+    <section class="map container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  mb-4">
+                    <div class="middle-form" p-5>
+                        <p class="h4 subheader">Contacts</p>
+                        <h2>Get in Touch</h2>
+                        <!-- RD Mailform-->
+                        <form class="text-center">
+                            <div class="form-group">
+                                <!--  <label for="contact-name" class="form-label rd-input-label">Name</label>-->
+                                <input class="form-control" type="text" placeholder="Name" />
+                            </div>
+
+                            <div class="form-group">
+                                <!-- <label for="contact-name" class="form-label rd-input-label">Email</label>-->
+                                <input class="form-control" type="email" placeholder="Email" />
+                            </div>
+
+                            <div class="form-group">
+                                <!-- <label for="contact-name" class="form-label rd-input-label">Phone</label>-->
+                                <input class="form-control" type="number" placeholder="Phone" />
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="contact-name" class="form-label rd-input-label">Phone</label>-->
+                                <input class="form-control" type="date" placeholder="Save Date" />
+                            </div>
+
+                            <div class="form-group">
+                                <!--<label for="contact-name" class="form-label rd-input-label">Message</label>-->
+                                <textarea rows="2" type="text" class="form-control" placeholder="Message"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="btn btn-white-outline">
+                                    send message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15078.119061587218!2d72.86552051419146!3d19.12827428705477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9cc9c395a55%3A0xe639b3b04286ab4c!2sTeeTechWorld!5e0!3m2!1sen!2sin!4v1568713837687!5m2!1sen!2sin" width="100%" height="483" frameborder="0" style="border-radius:0px;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--map ends here-->
+
+    <!--footer start-->
+    <footer class="text-center text-light bg-dark container-fluid">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4">
+                    <h2>Opning Hours</h2>
+                    <img src="images/under-line.png" class="img-fluid mx-auto d-block" alt="" />
+                    <br />
+                    <p class="h5">
+                        <span class="glyphicon  glyphicon-time"></span> 9:00
+                        AM - 9:00 PM
+                    </p>
+                    <p class="h5">
+                        <span class="glyphicon  glyphicon-time"></span>
+                        Sunday Closed
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>About Us</h2>
+                    <img src="images/under-line.png" class="img-fluid mx-auto d-block" alt="" />
+                    <br />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quisquam ex, nam expedita amet, laboriosam
+                        tempora.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Contact Info</h2>
+                    <img src="images/under-line.png" class="img-fluid mx-auto d-block" alt="" />
+                    <br />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Recusandae, magni!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+
+    <!--copyright-->
+
+    <section class="cp text-center">
+        <span class="text-muted">&copy; All Copyrights are Reserved &trade;</span>
+    </section>
+    <div onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></div>
+    <!-- Jquery Calling -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <!--<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>-->
+
+
+    <!-- <script type="text/javascript">
+        
+        new WOW().init();
+    </script>-->
+</body>
+
+</html>
