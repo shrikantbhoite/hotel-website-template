@@ -32,7 +32,6 @@
         /*  #myBtn:hover {
             background-color: none;
         }*/
-
     </style>
 </head>
 
@@ -57,8 +56,8 @@
                             Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <span class="glyphicon glyphicon-picture"></span> Pages
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-picture"></span> Pages
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Action</a>
@@ -107,6 +106,27 @@
         </div>
     </div>
     <!--slider end here-->
+
+    <!--booking form starts here-->
+    <div class="container-fluid  mt-4">
+        <div class="container ">
+            <div class="row ">
+            <div class="b-form">
+                <form class="form-inline" action="">
+                    <label class="mr-sm-2">Check In</label>
+                    <input type="date" class="form-control mb-2 mr-sm-2 text-center">
+                    <label class="mr-sm-2">Check Out</label>
+                    <input type="date" class="form-control mb-2 mr-sm-2 text-center">
+                    <label class="mr-sm-2">Guest</label>
+                    <input type="number" class="form-control mb-2 mr-sm-2 text-center " min="0" max="5">
+                    <button type="submit" class="btn btn-primary mb-2">Check Availabilty</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--booking form ends here-->
 
     <!--kitchen team start here-->
     <section class="chef container-fluid">
@@ -248,7 +268,7 @@
         </div>
         <div class="container">
             <div class="row ">
-                <div class="col-md-6 sachin mb-4">
+                <div class="col-md-6 fav-rooms mb-4">
                     <div class="price text-center">
                         <h5>€189 / night</h5>
                     </div>
@@ -455,7 +475,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-
     </script>
 
 
@@ -481,7 +500,6 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-
     </script>
     <!--<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>-->
 
@@ -490,6 +508,4 @@
         
         new WOW().init();
     </script>-->
-</body>
-
-</html>
+</body></html>
